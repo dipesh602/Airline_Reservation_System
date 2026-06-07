@@ -4,10 +4,12 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
 //import com.dipesh.airline_reservation_system.model.User;
 
 @Entity
+@Table(name="bookings")
 public class Booking {
 	
 	private Long id;
